@@ -111,3 +111,8 @@ variable "extra_tags" {
 variable "ign_etcd_dropin_id_list" {
   type = "list"
 }
+
+variable "fault_domain_count" {
+  type    = "string"
+  default = "3"
+}
